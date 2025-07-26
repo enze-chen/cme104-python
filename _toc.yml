@@ -1,0 +1,19 @@
+# Table of contents. Learn more at https://jupyterbook.org/customize/toc.html
+format: jb-book
+root: intro
+parts:
+  - chapters:
+    - file: workbook/0_usage
+
+  - caption: Linear algebra and applications
+    numbered: 1
+    chapters:
+    - file: workbook/1_matrices-vectors_demo
+      sections: 
+      - file: workbook/1_matrices-vectors_blank
+        title: Your turn
+
+  - caption: Tutorials
+    numbered: false
+    chapters:
+    - file: tutorials/1_fund-python_blank
