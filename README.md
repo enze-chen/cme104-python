@@ -3,7 +3,7 @@
 © [Enze Chen](https://mse.stanford.edu/people/enze-chen), 
 [Vadim Khayms](https://icme.stanford.edu/people/vadim-khayms)
 
-Python version of MATLAB exercises for CME 104 at Stanford University.
+Python version of MATLAB exercises for [CME 104: Linear Algebra and Partial Differential Equations for Engineers](https://explorecourses.stanford.edu/search?q=cme104+partial) at Stanford University.
 
 Access it through our [Jupyter Book](https://enze-chen.github.io/cme104-python/)!
 
