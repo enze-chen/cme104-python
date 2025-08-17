@@ -5,6 +5,7 @@ parts:
   - chapters:
     - file: workbook/0_usage
 
+
   - caption: Linear algebra and applications
     numbered: 1
     chapters:
@@ -23,12 +24,75 @@ parts:
       - file: workbook/3_least-squares_blank
         title: Your turn
 
+
   - caption: Eigenvalues and eigenvectors
     numbered: 1
     chapters:
     - file: workbook/4_eigen_demo
       sections: 
       - file: workbook/4_eigen_blank
+        title: Your turn
+
+    - file: workbook/5_matrix_power_demo
+      sections: 
+      - file: workbook/5_matrix_power_blank
+        title: Your turn
+
+
+  - caption: Fourier series
+    numbered: 1
+    chapters:
+    - file: workbook/6_fourier_demo
+      sections: 
+      - file: workbook/6_fourier_blank
+        title: Your turn
+
+    - file: workbook/7_vibrations_demo
+      sections: 
+      - file: workbook/7_vibrations_blank
+        title: Your turn
+
+
+  - caption: Diffusion equation
+    numbered: 1
+    chapters:
+    - file: workbook/8_1D_heat_demo
+      sections: 
+      - file: workbook/8_1D_heat_blank
+        title: Your turn
+
+    - file: workbook/9_2D_laplace_demo
+      sections: 
+      - file: workbook/9_2D_laplace_blank
+        title: Your turn
+
+    - file: workbook/10_wave_demo
+      sections: 
+      - file: workbook/10_wave_blank
+        title: Your turn
+
+
+  - caption: Boundary value problems
+    numbered: 1
+    chapters:
+    - file: workbook/11_1D_boundary_demo
+      sections: 
+      - file: workbook/11_1D_boundary_blank
+        title: Your turn
+
+    - file: workbook/12_2D_laplace_iter_demo
+      sections: 
+      - file: workbook/12_2D_laplace_iter_blank
+        title: Your turn
+
+    - file: workbook/13_time_dep_demo
+      sections: 
+      - file: workbook/13_time_dep_blank
+        title: Your turn
+
+    - file: workbook/14_time_dep_implicit_demo
+      sections: 
+      - file: workbook/14_time_dep_implicit_blank
         title: Your turn
 
   - caption: Tutorials
