@@ -470,8 +470,10 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="d-heat-conduction-equation-your-turn">
 <h1>1D heat conduction equation - Your turn<a class="headerlink" href="#d-heat-conduction-equation-your-turn" title="Link to this heading">#</a></h1>
-<p>A rod of length <span class="math notranslate nohighlight">\(2\)</span> has the following initial and boundary temperature conditions: <span class="math notranslate nohighlight">\(T(x,0) = 50\)</span>, <span class="math notranslate nohighlight">\(T(0,t) = 0\)</span>, and <span class="math notranslate nohighlight">\(T(2,t) = 100\)</span>.
-The solution to the heat conduction equation <span class="math notranslate nohighlight">\(\lambda \dfrac{\partial^2 T}{\partial x^2} + q = \dfrac{\partial T}{\partial t}\)</span> with <span class="math notranslate nohighlight">\(\lambda=1\)</span>, is:</p>
+<p>A rod of length <span class="math notranslate nohighlight">\(2\)</span> has the following initial and boundary temperature conditions:</p>
+<div class="math notranslate nohighlight">
+\[ T(x,0) = 50; \quad T(0,t) = 0 \quad \text{and} \quad T(2,t) = 100 \]</div>
+<p>The solution to the heat conduction equation <span class="math notranslate nohighlight">\(\lambda \dfrac{\partial^2 T}{\partial x^2} + q = \dfrac{\partial T}{\partial t}\)</span> with <span class="math notranslate nohighlight">\(\lambda=1\)</span>, is:</p>
 <div class="math notranslate nohighlight">
 \[ T(x,t) = 50x + \sum_{n=\text{even},\neq 0}^{\infty} \dfrac{200}{n \pi} \sin \left( \dfrac{n\pi x}{2} \right) e^{-\frac{n^2 \pi^2}{4}t} \]</div>
 <p>Plot the temperature distribution of the rod at <span class="math notranslate nohighlight">\(t = 0\)</span>, <span class="math notranslate nohighlight">\(0.05\)</span>, <span class="math notranslate nohighlight">\(0.1\)</span>, and <span class="math notranslate nohighlight">\(0.5\)</span>.</p>

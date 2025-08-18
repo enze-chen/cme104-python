@@ -475,7 +475,8 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="d-boundary-value-problem">
 <h1><span class="section-number">11. </span>1D boundary value problem<a class="headerlink" href="#d-boundary-value-problem" title="Link to this heading">#</a></h1>
-<p>You may recall from CME 102 that in addition to initial value problems where a particular value is fixed at <span class="math notranslate nohighlight">\(t = 0\)</span>, a different class of differential equation problems is <strong>boundary value problems</strong> (BVPs), where the values are fixed at points in the position domain (usually endpoints).
+<p>You may recall from CME 102 that in addition to initial value problems where a particular value is fixed at <span class="math notranslate nohighlight">\(t = 0\)</span>, a different class of differential equation problems is <strong>boundary value problems</strong> (BVPs), where the values are fixed at points in the position domain (usually endpoints <span class="math notranslate nohighlight">\(x = 0\)</span> and <span class="math notranslate nohighlight">\(x = L\)</span>).
+BVPs are used everywhere to model phenomena such as heat conduction, wave propagation, and quantum mechanics (a la the Schrödinger equation).
 In this last section, we will solve a few example BVPs using direct and iterative discretization methods.</p>
 <section id="summary-of-commands">
 <h2>Summary of commands<a class="headerlink" href="#summary-of-commands" title="Link to this heading">#</a></h2>
@@ -498,8 +499,8 @@ In this last section, we will solve a few example BVPs using direct and iterativ
 <section id="demo">
 <h2>Demo<a class="headerlink" href="#demo" title="Link to this heading">#</a></h2>
 <p>A string of length <span class="math notranslate nohighlight">\(L = 1\)</span> m is fixed at both ends, such that <span class="math notranslate nohighlight">\(y(0,t) = y(L,t) = 0\)</span>.
-The motion of the string is governed by the wave equation <span class="math notranslate nohighlight">\(c^2 \dfrac{\partial^2 y}{\partial x^2} = \dfrac{\partial^2 y}{\partial t^2}\)</span>, with <span class="math notranslate nohighlight">\(c=1\)</span>.
-Assume a solution of the form <span class="math notranslate nohighlight">\(y(x,t) = F(x) G(t)\)</span>.
+The motion of the string is governed by the wave equation <span class="math notranslate nohighlight">\(c^2 \dfrac{\partial^2 y}{\partial x^2} = \dfrac{\partial^2 y}{\partial t^2}\)</span>, with <span class="math notranslate nohighlight">\(c=1\)</span>.</p>
+<p>Assume a solution of the form <span class="math notranslate nohighlight">\(y(x,t) = F(x) G(t)\)</span>.
 Substituting this solution into the wave equation and dividing by <span class="math notranslate nohighlight">\(F(x) G(t)\)</span>, we obtain:</p>
 <div class="math notranslate nohighlight">
 \[ \dfrac{F''(x)}{F(x)} = \dfrac{1}{c^2} \dfrac{G''(t)}{G(t)} = -k^2 \quad k\ \text{is a constant} \]</div>

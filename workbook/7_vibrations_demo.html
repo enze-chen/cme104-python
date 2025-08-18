@@ -481,7 +481,7 @@ Here we will solving a differential equation for a mass-spring system using Four
 <h2>Summary of commands<a class="headerlink" href="#summary-of-commands" title="Link to this heading">#</a></h2>
 <p>In this exercise, we will demonstrate the following:</p>
 <ul class="simple">
-<li><p><a class="reference external" href="https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.stem.html"><code class="docutils literal notranslate"><span class="pre">ax.stem()</span></code></a> - Plots a graph of discrete points with stems extending down to a baseline (usually <span class="math notranslate nohighlight">\(y=0\)</span>).</p></li>
+<li><p><a class="reference external" href="https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.stem.html"><code class="docutils literal notranslate"><span class="pre">ax.stem(x,</span> <span class="pre">y)</span></code></a> - Plots a graph of discrete points at <code class="docutils literal notranslate"><span class="pre">x</span></code> positions with stems of height <code class="docutils literal notranslate"><span class="pre">y</span></code> extending down to a baseline (usually <span class="math notranslate nohighlight">\(y=0\)</span>).</p></li>
 </ul>
 <p>We will continue to build on the commands used in the previous exercise as well.</p>
 </section>
@@ -521,6 +521,7 @@ Here we will solving a differential equation for a mass-spring system using Four
 A_n &amp;= \frac{4}{n^2 \pi^2} \frac{m n^2 \pi^2 - k}{(mn^2 \pi^2 - k)^2 + (\lambda n \pi)^2} \\
 B_n &amp;= -\frac{4}{n^2 \pi^2} \frac{\lambda n \pi}{(mn^2 \pi^2 - k)^2 + (\lambda n \pi)^2}
 \end{align} \end{split}\]</div>
+<p>The contribution of each frequency component to the final solution is given by <span class="math notranslate nohighlight">\(C_n = \sqrt{A_n^2 + B_n^2}\)</span>.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># import libraries</span>
